@@ -101,41 +101,7 @@
 
        
     
-        <h2>Selected Publications</h2>
-        <h3>Representative Publications</h3>
-     
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
-            <tbody>
-                <tr>
-                   <td style="padding:20px;width:70%;vertical-align:middle;border-right:none;border:none;">
-                        <p align="justify"><b>Cort: A new baseline for comparative opinion classification by dual prompts</b> </p>
-                        <p align="justify">Yequan Wang, <b>Hengran Zhang</b>,Aixin sun, Xuying Meng </p>
-                        <p align="justify">
-				Comparative opinion is a common linguistic phenomenon. The opinion is expressed by comparing multiple targets on a shared aspect, e.g., “camera A is better than camera B in picture quality”. Among the various subtasks in opinion mining, comparative opinion classification is relatively less studied. Current solutions use rules or classifiers to identify opinions, i.e., better, worse, or same, through feature engineering. Because the features are directly derived from the input sentence, these solutions are sensitive to the order of the targets mentioned in the sentence. For example, “camera A is better than camera B” means the same as “camera B is worse than camera A”; but the features of these two sentences are completely different. In this paper, we approach comparative opinion classification through prompt learning, taking the advantage of embedded knowledge in pre-trained language model. We design a twin framework with dual prompts, named CORT. This extremely simple model delivers state-of-the-art and robust performance on all benchmark datasets for comparative opinion classification. We believe CORT well serves as a new baseline for comparative opinion classification.
-                          </p>
-
-                    </td>
-                    <td style="padding:20px;width:70%;vertical-align:middle;border-right:none;border:none;">
-                        <p align="justify"><b>From Relevance to Utility: Evidence Retrieval with Feedback for Fact Verification</b> </p>
-                        <p align="justify"><b>Hengran Zhang</b>, Ruqing Zhang, Jiafeng Guo, Maarten de Rijke, Maarten_de_Rijke, Yixing Fan, Xueqi Cheng </p>
-                        <p align="justify">
-                           Retrieval-enhanced methods have become a primary approach in fact verification (FV); it requires reasoning over multiple retrieved pieces of evidence to verify the integrity of a claim. To retrieve evidence, existing work often employs off-the-shelf retrieval models whose design is based on the probability ranking principle. We argue that, rather than relevance, for FV we need to focus on the utility that a claim verifier derives from the retrieved evidence. We introduce the 
-  feedback-based evidence retriever(FER) that optimizes the evidence retrieval process by incorporating feedback from the claim verifier. As a feedback signal we use the divergence in utility between how effectively the verifier utilizes the retrieved evidence and the ground-truth evidence to produce the final claim label. Empirical studies demonstrate the superiority of FER over prevailing baselines.
-                        </p>
-
-                    </td>
-		<td style="padding:20px;width:70%;vertical-align:middle;border-right:none;border:none;">
-                        <p align="justify"><b>Are Large Language Models Good at Utility Judgments?</b> </p>
-                        <p align="justify"><b>Hengran Zhang</b>, Ruqing Zhang, Jiafeng Guo, Maarten de Rijke, Maarten_de_Rijke, Yixing Fan, Xueqi Cheng </p>
-                        <p align="justify">
-                          Retrieval-augmented generation (RAG) is considered to be a promising approach to alleviate the hallucination issue of large language models (LLMs), and it has received widespread attention from researchers recently. Due to the limitation in the semantic understanding of retrieval models, the success of RAG heavily lies on the ability of LLMs to identify passages with utility. Recent efforts have explored the ability of LLMs to assess the relevance of passages in retrieval, but there has been limited work on evaluating the utility of passages in supporting question answering. In this work, we conduct a comprehensive study about the capabilities of LLMs in utility evaluation for open-domain QA. Specifically, we introduce a benchmarking procedure and collection of candidate passages with different characteristics, facilitating a series of experiments with five representative LLMs. Our experiments reveal that: (i) well-instructed LLMs can distinguish between relevance and utility, and that LLMs are highly receptive to newly generated counterfactual passages. Moreover, (ii) we scrutinize key factors that affect utility judgments in the instruction design. And finally, (iii) to verify the efficacy of utility judgments in practical retrieval augmentation applications, we delve into LLMs' QA capabilities using the evidence judged with utility and direct dense retrieval results. (iv) We propose a k-sampling, listwise approach to reduce the dependency of LLMs on the sequence of input passages, thereby facilitating subsequent answer generation. We believe that the way we formalize and study the problem along with our findings contributes to a critical assessment of retrieval-augmented LLMs.
-
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-
-
+   
        
 
 
@@ -150,8 +116,27 @@
                     </a>
                     <br />
                     Yequan Wang, <b>Hengran Zhang</b>, Aixin Sun, Xuying Meng<br />
-                    <i>Findings of the Association for Computational Linguistics: EMNLP 2022, pages 7093 - 7104
-December 7-11, 2022 </i> 2023
+                    <i>Findings of  EMNLP 2022 </i> 
+                </p>
+            </li>
+		<li>
+                <p align="justify">
+                    <a href="https://ieeexplore.ieee.org/document/10163770">
+                       From Relevance to Utility: Evidence Retrieval with Feedback for Fact Verification
+                    </a>
+                    <br />
+                   <b>Hengran Zhang</b>, Ruqing Zhang, Jiafeng Guo, Maarten de Rijke, Maarten_de_Rijke, Yixing Fan, Xueqi Cheng <br />
+                    <i>Findings of EMNLP 2023</i>
+                </p>
+            </li>
+		<li>
+                <p align="justify">
+                    <a href="https://ieeexplore.ieee.org/document/10163770">
+                        Are Large Language Models Good at Utility Judgments?
+                    </a>
+                    <br />
+                    <b>Hengran Zhang</b>, Ruqing Zhang, Jiafeng Guo, Maarten de Rijke, Maarten_de_Rijke, Yixing Fan, Xueqi Cheng<br />
+                    <i> SIGIR 2024 </i>
                 </p>
             </li>
         </ul>
